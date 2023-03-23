@@ -1,0 +1,36 @@
+ul{
+    /* list-style-type: square;*/
+    /* list-style-image: url("/media/bullet points.png"); */
+    /* list-style-position: outside; */
+    list-style: inside circle;
+}
+ol{
+    list-style-type: lower-alpha;
+}
+li{
+    margin: 10px;
+}
+table{
+    width: 300px;
+    margin: auto;
+    border-spacing: 10px 20px;
+    border-collapse: collapse;
+    /* border-collapse: separate; */
+}
+th{
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid black;
+    padding:6px;
+}
+td{
+    padding:6px;
+    border: 1px solid black;
+}
+.amt{
+    text-align: right;
+
+}
+tr:nth-child(even){
+    background-color: aquamarine;
+}
